@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    background-image: radial-gradient(circle at 85% 1%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 96%,transparent 96%, transparent 100%),radial-gradient(circle at 14% 15%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 1%,transparent 1%, transparent 100%),radial-gradient(circle at 60% 90%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 20%,transparent 20%, transparent 100%),radial-gradient(circle at 79% 7%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 78%,transparent 78%, transparent 100%),radial-gradient(circle at 55% 65%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 52%,transparent 52%, transparent 100%),linear-gradient(135deg, rgb(37, 56, 222),rgb(96, 189, 244));
+}
+
+.container{
+    width: 60%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.container p{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 4px;
+    text-align: center;
+}
+
+.container button{
+    background-color: orange;
+    padding: 5px 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
